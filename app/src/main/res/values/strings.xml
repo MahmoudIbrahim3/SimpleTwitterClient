@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Simple Twitter Client</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_my_followers">My Followers</string>
+
+    <string name="internet_connection_error">Internet connection error</string>
+    <string name="no_followers">No followers</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="@dimen/width_list_item_icon"
+        android:layout_height="@dimen/height_list_item_icon"
+        android:id="@+id/iv_profile_image"
+        android:layout_margin="@dimen/padding_list_item"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_list_item"
+        android:paddingBottom="@dimen/padding_list_item"
+        android:paddingRight="@dimen/padding_list_item">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/tv_name"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/font_list_item_primary_text"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/tv_handle"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/font_list_item_secondary_text"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/tv_bio"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/font_list_item_secondary_text"/>
+    </LinearLayout>
+</LinearLayout>
